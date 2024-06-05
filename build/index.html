@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Acme Rockets</title>
+	</head>
+	<body>
+		<header class="bg-teal-700 text-white sticky top-0 z-10">
+			<section class="container p-4 flex justify-between items-center">
+				<h1 class="text-2xl font-bold md:text-3xl">
+					<a href="#hero">🚀 Acme Rockets</a>
+				</h1>
+
+				<div>
+					<button
+						id="mobile-open-button"
+						class="text-3xl sm:hidden focus:outline-none"
+					>
+						&#9776;
+					</button>
+
+					<nav
+						class="hidden sm:block space-x-8 text-md lg:text-xl"
+						aria-label="main"
+					>
+						<a href="#rockets" class="hover:opacity-90">Our Rockets</a>
+						<a href="#testimonials" class="hover:opacity-90">Testimonials</a>
+						<a href="#contact" class="hover:opacity-90">Contact Us</a>
+					</nav>
+				</div>
+			</section>
+		</header>
+
+		<main class="container">
+			<section
+				id="hero"
+				class="flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12 scroll-mt-40"
+			>
+				<article class="sm:w-1/2">
+					<h2 class="max-w-md text-center sm:text-left">
+						we blody go
+						<span class="text-indigo-700 dark:text-indigo-300">
+							where no rockets
+						</span>
+						has gone before...
+					</h2>
+					<p
+						class="max-w-md text-md md:text-lg lg:text-xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400"
+					>
+						We're building rockets for the next century tody. From the moon to
+						the Mars, Jupyter and beyond...
+					</p>
+					<p
+						class="max-w-md text-md md:text-lg lg:text-xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400"
+					>
+						Think Acme Rockets
+					</p>
+				</article>
+				<img src="./img/rocketdab.png" alt="Rocket Dab" class="w-1/2" />
+			</section>
+
+			<hr class="mx-auto bg-black dark:bg-white w-1/2" />
+
+			<section id="rockets" class="p-6 my-12 scroll-mt-40">
+				<h2 class="text-center mb-6">Our Rockets</h2>
+				<ul
+					class="my-12 flex flex-col md:flex-row gap-8 items-center justify-center"
+				>
+					<li
+						class="flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl"
+					>
+						<img src="./img/rocketman.png" alt="Explorer" class="mb-6 w-1/2" />
+						<h3
+							class="text-xl sm:text-2xl font-semibold text-center text-slate-900 dark:text-white"
+						>
+							Explorer
+						</h3>
+						<p
+							class="hidden sm:block text-lg text-center mt-2 text-slate-500 dark:text-slate-400"
+						>
+							$
+						</p>
+						<p
+							class="sm:hidden text-lg text-center mt-2 text-slate-500 dark:text-slate-400"
+						>
+							Affordable Exploration
+						</p>
+					</li>
+
+					<li
+						class="flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl"
+					>
+						<img
+							src="./img/rocketlaunch.png"
+							alt="Infinity"
+							class="mb-6 w-1/2"
+						/>
+						<h3
+							class="text-xl sm:text-2xl font-semibold text-center text-slate-900 dark:text-white"
+						>
+							Infinity
+						</h3>
+						<p
+							class="hidden sm:block text-lg sm:text-xl text-center mt-2 text-slate-500 dark:text-slate-400"
+						>
+							$
+						</p>
+						<p
+							class="sm:hidden text-lg sm:text-xl text-center mt-2 text-slate-500 dark:text-slate-400"
+						>
+							Luxury Starship
+						</p>
+					</li>
+
+					<li
+						class="flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl"
+					>
+						<img
+							src="./img/rocketride.png"
+							alt="Adventurer"
+							class="mb-6 w-1/2"
+						/>
+						<h3
+							class="text-xl sm:text-2xl font-semibold text-center text-slate-900 dark:text-white"
+						>
+							Adventurer
+						</h3>
+						<p
+							class="hidden sm:block text-lg sm:text-xl text-center mt-2 text-slate-500 dark:text-slate-400"
+						>
+							$
+						</p>
+						<p
+							class="sm:hidden text-lg sm:text-xl text-center mt-2 text-slate-500 dark:text-slate-400"
+						>
+							Best Selling Rocket!
+						</p>
+					</li>
+				</ul>
+			</section>
+			<hr class="mx-auto bg-black dark:bg-white w-1/2" />
+
+			<section id="testimonials" class="p-6 my-12">
+				<h2 class="text-center mb-6">Testimonials</h2>
+			</section>
+			<hr class="mx-auto bg-black dark:bg-white w-1/2" />
+
+			<section id="contact" class="p-6 my-12">
+				<h2 class="text-center mb-6">Contact Us</h2>
+			</section>
+		</main>
+	</body>
+</html>
