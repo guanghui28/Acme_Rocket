@@ -23,8 +23,14 @@
 	.container {
 		@apply max-w-4xl mx-auto;
 	}
+}
 
-	.quote {
-		@apply text-lg md:text-xl text-left mt-2 text-white dark:text-slate-400 before:absolute before:font-serif before:content-['\201C'] before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:-translate-x-2 before:-translate-y-2 after:absolute after:font-serif after:content-['\201D'] after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2;
+@layer utilities {
+	.min-height {
+		min-height: calc(100vh - 68px);
+	}
+
+	.toggle-btn {
+		@apply [&>div]:rotate-[720deg] [&>div::before]:translate-y-0 [&>div::before]:rotate-45 [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div]:bg-transparent;
 	}
 }
